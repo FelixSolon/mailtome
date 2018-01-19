@@ -1,0 +1,26 @@
+{
+  "name": "mailforme",
+  "version": "0.0.1",
+  "description": "A simple app to bounce forms from static sites through NodeMailer",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixSolon/mailtome.git"
+  },
+  "author": "Eric Stanulis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelixSolon/mailtome/issues"
+  },
+  "homepage": "https://github.com/FelixSolon/mailtome#readme"
+}

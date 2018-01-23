@@ -2,6 +2,8 @@ var express = require('express');
 var router = express.Router();
 var path = require('path');
 const nodemailer = require('nodemailer');
+const bodyParser = require('body-parser');
+express.use(bodyParser);
 
 router.get("/", function(req, res){
     res.send("Hello World!");

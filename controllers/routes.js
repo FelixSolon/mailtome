@@ -12,8 +12,7 @@ router.get("/", function(req, res){
     res.send("Hello World!");
 })
 
-router.post("/", function(req, res){
-    console.log(re);
+router.post("/", function(req, res){;
     res.json(req.body);
 })
 

@@ -8,7 +8,7 @@ router.get("/", function(req, res){
 
 router.post("/", function(req, res){
     console.log(req);
-    res.send("Confirmed");
+    res.send(req);
 })
 
 var smtpTransport = nodemailer.createTransport({

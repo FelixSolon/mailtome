@@ -11,7 +11,7 @@ router.get("/", function(req, res){
 
 router.post("/", function(req, res){
     console.log(req);
-    res.JSON(req.body);
+    res.json(req.body);
 })
 
 var smtpTransport = nodemailer.createTransport({

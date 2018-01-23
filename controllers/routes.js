@@ -3,7 +3,10 @@ var router = express.Router();
 var path = require('path');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
-express.use(bodyParser);
+const app = express()
+app.use(bodyParser.urlencoded({
+    extended: false
+}))
 
 router.get("/", function(req, res){
     res.send("Hello World!");

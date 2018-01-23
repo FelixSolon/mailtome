@@ -1,16 +1,13 @@
-const express = require('express');
-const router = express.Router();
-const nodemailer = require('nodemailer');
-
-const methodOverride = require("method-override");
-const bodyParser = require("body-parser");
+var express = require('express');
+var router = express.Router();
+var path = require('path');
 
 router.get("/", function(req, res){
     res.send("Hello World!");
 })
 
 router.post("/", function(req, res){
-    console.log(req);
+    console.log(re);
     res.json(req.body);
 })
 
